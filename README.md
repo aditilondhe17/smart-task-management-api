@@ -31,6 +31,7 @@ smart-task-management-api/
 │   └── schemas.py
 ├── requirements.txt
 └── README.md
+├── test_main.py
 ```
 
 ## Setup Instructions
@@ -83,3 +84,22 @@ http://127.0.0.1:8000/docs
 - Database integration using SQLAlchemy
 - Request validation with Pydantic
 - API testing through Swagger UI
+  
+## Testing
+
+Automated API tests are written using Pytest and FastAPI's TestClient.
+
+Run the tests with:
+
+```bash
+python -m pytest test_main.py -v
+```
+
+**Test Results:** 4 tests passed.
+
+## Future Improvements
+
+- Add user authentication and authorization
+- Add task status and priority filters
+- Add pagination and improved error handling
+- Deploy the API to a cloud platform
