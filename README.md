@@ -84,7 +84,11 @@ http://127.0.0.1:8000/docs
 - Database integration using SQLAlchemy
 - Request validation with Pydantic
 - API testing through Swagger UI
-  
+
+  ## Project Screenshot
+
+![Swagger UI - Smart Task Management API](swagger-ui.png)
+
 ## Testing
 
 Automated API tests are written using Pytest and FastAPI's TestClient.
